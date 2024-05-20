@@ -20,7 +20,7 @@ app.use(cookieParser());
 app.use(express.urlencoded({extended:false}));  //helps to handle the data via url
 app.use(bodyParser.json());
 app.use(cors({
-    origin:["http://localhost:3000","https://pinvent-app.vercel.app"],
+    origin:["http://localhost:3000","https://pinvent-app-mu.vercel.app"],
     credentials:true,
 }));
 
